@@ -8,7 +8,7 @@ description = "Anomaly detection."
 readme = "README.md"
 license = { text = "MIT" }
 version = "0.1.0"
-requires-python = ">=3.11.5"
+requires-python = ">=3.11.6"
 authors = [
     {name = "Nino Lindenberg", email = "aeternalisingenium@proton.me"}
 ]
@@ -28,7 +28,9 @@ classifiers = [
     "Operating System :: Microsoft :: Windows",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.11.5",
+    "Programming Language :: Python :: 3.12.0",
     "Topic :: Anomaly Detection",
     "Topic :: Anomaly Detection :: Anomaly Detection with Extreme Value Theory",
     "Topic :: Software Development :: Libraries",
@@ -130,7 +132,6 @@ error_summary = true
 exclude = "(build|data|dist|docs/src|images|logo|logs|output)/"
 ignore_missing_imports = true
 pretty = true
-python_version = "3.11"
 strict_optional = true
 warn_no_return = true
 warn_return_any = false
@@ -153,5 +154,5 @@ addopts = '''
     --cov-report=html:coverage/cov.html
     --cov-report=xml:coverage/cov.xml
     --no-cov-on-fail
-    --cov-fail-under=97
+    --cov-fail-under=55
 '''

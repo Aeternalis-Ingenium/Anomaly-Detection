@@ -39,7 +39,7 @@ env/**
 .DS_Store
 .env
 
-# Log Files
+# Log files
 logs/**
 *.log
 
@@ -49,5 +49,11 @@ coverage/**
 coverage.*
 cov.*
 
-# Virtual Environment & packages
+# Virtual environment & packages
 .python-version
+
+# Test dataset
+tests/datasets/**.csv
+
+# Documentation assets
+docs/assets/**
