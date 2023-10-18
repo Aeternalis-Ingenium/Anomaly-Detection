@@ -53,7 +53,7 @@ cov.*
 .python-version
 
 # Test dataset
-tests/datasets/**
+tests/datasets/**.csv
 
 # Documentation assets
 docs/assets/**
