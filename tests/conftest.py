@@ -62,6 +62,8 @@ def init_test_df(
         vals=vals,
         anomaly_percentage=anomaly_percentage,
     )
+    if test_dataset == "File doesn't exist!":
+        return "File doesn't exist!"
     df = read_csv(filepath_or_buffer=test_dataset)
     if is_shuffled:
         for feature in df.columns:
